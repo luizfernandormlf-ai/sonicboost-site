@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09070f">
+  <meta name="description" content="Dicas de áudio e sugestões para ajudar a melhorar o SonicBoost.">
+  <title>Sugestões e dicas — SonicBoost</title>
+  <link rel="icon" href="assets/sonicboost.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .tips-hero{max-width:1050px;margin:auto;padding:70px 26px 35px}
+    .tips-hero h1{font-size:clamp(2.7rem,6vw,4.6rem);line-height:1.02;letter-spacing:-.07em;margin:0 0 16px}
+    .tips-hero p.lead{max-width:700px;color:var(--muted);font-size:1.05rem}
+    .tips-layout{max-width:1050px;margin:auto;padding:18px 26px 80px;display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .tip-card{border:1px solid var(--line);background:linear-gradient(145deg,#171321,#100d17);border-radius:18px;padding:24px}
+    .tip-card .number{font-size:.7rem;letter-spacing:.15em;color:#c19aff;font-weight:800}
+    .tip-card h2{font-size:1.18rem;margin:12px 0 8px}
+    .tip-card p,.tip-card li{color:var(--muted);font-size:.92rem}
+    .tip-card ul{padding-left:20px;margin-bottom:0}
+    .suggestion{max-width:998px;margin:0 auto 80px;padding:26px;border:1px solid #4a3563;background:#151020;border-radius:20px}
+    .suggestion h2{margin-top:0;font-size:1.6rem;letter-spacing:-.04em}
+    .suggestion p{color:var(--muted)}
+    .suggestion .button{margin-top:14px}
+    .suggestion-note{font-size:.78rem;color:#92879f}
+    .suggestion-form{display:grid;gap:16px;margin-top:24px}
+    .suggestion-form label{display:grid;gap:7px;font-size:.9rem;font-weight:650;color:#eee5ff}
+    .suggestion-form input,.suggestion-form select,.suggestion-form textarea{width:100%;border:1px solid #40334f;border-radius:11px;background:#0d0a14;color:#f6f2ff;padding:12px 13px;font:inherit}
+    .suggestion-form input:focus,.suggestion-form select:focus,.suggestion-form textarea:focus{outline:2px solid #a66bff;outline-offset:2px}
+    .suggestion-form textarea{min-height:135px;resize:vertical}
+    .suggestion-form .privacy-check{display:flex;align-items:flex-start;gap:9px;font-weight:400;color:var(--muted)}
+    .suggestion-form .privacy-check input{width:auto;margin-top:5px}
+    .suggestion-form button{justify-self:start}
+    .suggestion-form .honeypot{position:absolute;left:-5000px}
+    @media(max-width:680px){.tips-hero{padding:48px 18px 22px}.tips-layout{grid-template-columns:1fr;padding:15px 18px 50px}.suggestion{margin:0 18px 55px;padding:22px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="SonicBoost início">
+      <img src="assets/sonicboost.svg" alt="" width="38" height="38">
+      <span>Sonic<span class="accent">Boost</span></span>
+    </a>
+    <nav aria-label="Navegação principal">
+      <a href="index.html#recursos">Recursos</a>
+      <a href="index.html#downloads">Downloads</a>
+      <a href="index.html#sobre">Sobre</a>
+      <a href="sugestoes.html" aria-current="page">Sugestões e dicas</a>
+    </nav>
+    <a class="nav-cta" href="index.html#downloads">Downloads</a>
+  </header>
+
+  <main>
+    <section class="tips-hero">
+      <p class="eyebrow">CENTRAL SONICBOOST</p>
+      <h1>Dicas para ouvir<br><span class="gradient">do seu jeito.</span></h1>
+      <p class="lead">Pequenos ajustes podem fazer diferença. Aqui reunimos ideias para experimentar com cuidado e sugestões para ajudar a construir as próximas versões do SonicBoost.</p>
+    </section>
+
+    <section class="tips-layout" aria-label="Dicas de áudio">
+      <article class="tip-card">
+        <span class="number">DICA 01</span>
+        <h2>Comece com ajustes pequenos</h2>
+        <p>Suba ou reduza uma banda por vez. Mudanças grandes podem deixar o som distorcido ou cansativo.</p>
+      </article>
+      <article class="tip-card">
+        <span class="number">DICA 02</span>
+        <h2>Compare no mesmo volume</h2>
+        <p>Ao comparar perfis, tente manter o volume parecido. Um som mais alto pode parecer melhor mesmo quando não está mais claro.</p>
+      </article>
+      <article class="tip-card">
+        <span class="number">DICA 03</span>
+        <h2>Evite exagerar nos graves</h2>
+        <p>Graves demais podem encobrir vozes e instrumentos. Ajuste aos poucos até encontrar um equilíbrio confortável.</p>
+      </article>
+      <article class="tip-card">
+        <span class="number">DICA 04</span>
+        <h2>Proteja sua audição</h2>
+        <p>Use um volume confortável e faça pausas. Se houver dor, zumbido ou desconforto, diminua o volume e interrompa o uso.</p>
+      </article>
+      <article class="tip-card">
+        <span class="number">DICA 05</span>
+        <h2>Salve perfis diferentes</h2>
+        <p>Se a versão instalada permitir, crie perfis separados para música, filmes, jogos e chamadas. Assim você não precisa refazer os ajustes.</p>
+      </article>
+      <article class="tip-card">
+        <span class="number">DICA 06</span>
+        <h2>Se o áudio parar</h2>
+        <p>Confira a saída selecionada no Windows e no Mixer de volume. Se usar um dispositivo virtual, confirme que o aplicativo correto está direcionado para ele.</p>
+      </article>
+    </section>
+
+    <section class="suggestion" id="sugerir">
+      <p class="eyebrow">AJUDE A MELHORAR</p>
+      <h2>Que recurso você gostaria de ver?</h2>
+      <p>Ideias para novos perfis, melhorias no equalizador, correções ou recursos para celular são bem-vindas. Preencha o formulário para enviar sua ideia à equipe.</p>
+      <form class="suggestion-form" action="https://formsubmit.co/programadorziro@gmailcom" method="POST">
+        <input type="hidden" name="_subject" value="Nova sugestão para o SonicBoost">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="true">
+        <input type="hidden" name="_next" value="">
+        <label class="honeypot" aria-hidden="true">Não preencha este campo<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label>
+        <label for="suggestion-type">Tipo de sugestão
+          <select id="suggestion-type" name="Categoria" required>
+            <option value="" selected disabled>Escolha uma categoria</option>
+            <option>Nova função</option>
+            <option>Qualidade do áudio</option>
+            <option>Equalizador e efeitos</option>
+            <option>Design e facilidade de uso</option>
+            <option>Versão para celular</option>
+            <option>Bug ou problema</option>
+            <option>Outra ideia</option>
+          </select>
+        </label>
+        <label for="suggestion-name">Seu nome (opcional)
+          <input id="suggestion-name" type="text" name="Nome" maxlength="80" placeholder="Como podemos te chamar?">
+        </label>
+        <label for="suggestion-email">Seu e-mail (opcional)
+          <input id="suggestion-email" type="email" name="E-mail para contato" maxlength="150" placeholder="voce@exemplo.com">
+        </label>
+        <label for="suggestion-message">Conte sua ideia
+          <textarea id="suggestion-message" name="Sugestão" maxlength="3000" required placeholder="O que você gostaria que o SonicBoost tivesse ou melhorasse?"></textarea>
+        </label>
+        <label class="privacy-check"><input type="checkbox" required> <span>Concordo em enviar as informações acima para que a equipe do SonicBoost possa analisar minha sugestão.</span></label>
+        <button class="button primary" type="submit">Enviar minha sugestão</button>
+      </form>
+      <p class="suggestion-note">Para o formulário entregar as mensagens, configure o e-mail de recebimento antes de publicar. Veja o passo a passo no arquivo LEIA-ME.md.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="index.html"><img src="assets/sonicboost.svg" alt="" width="30" height="30"><span>Sonic<span class="accent">Boost</span></span></a>
+    <p>© <span id="year"></span> SonicBoost. Projeto independente.</p>
+    <a href="index.html">Voltar ao início</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

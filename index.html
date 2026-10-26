@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09070f">
+  <meta name="description" content="SonicBoost — personalize sua experiência de áudio com equalização gráfica e perfis personalizados.">
+  <title>SonicBoost — Seu áudio, do seu jeito</title>
+  <link rel="icon" href="assets/sonicboost.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="SonicBoost início">
+      <img src="assets/sonicboost.svg" alt="" width="38" height="38">
+      <span>Sonic<span class="accent">Boost</span></span>
+    </a>
+    <nav aria-label="Navegação principal">
+      <a href="#recursos">Recursos</a>
+      <a href="#downloads">Downloads</a>
+      <a href="#sobre">Sobre</a>
+      <a href="sugestoes.html">Sugestões e dicas</a>
+    </nav>
+    <a class="nav-cta" href="#downloads">Conhecer versões</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> ÁUDIO PERSONALIZADO</p>
+        <h1>Seu áudio.<br><span class="gradient">Do seu jeito.</span></h1>
+        <p class="hero-text">Ajuste graves, médios e agudos, crie seus próprios perfis e encontre o som que combina com você.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#downloads"><span aria-hidden="true">↓</span> Ver downloads</a>
+          <a class="button secondary" href="#recursos">Explorar recursos</a>
+        </div>
+        <p class="small-note">Projeto em desenvolvimento. Compatibilidade e recursos podem variar por versão.</p>
+      </div>
+      <div class="eq-card" aria-label="Ilustração decorativa de equalizador">
+        <div class="eq-head"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="eq-label">SONICBOOST / EQUALIZER</span><span class="live">DEMO</span></div>
+        <div class="eq-curve">
+          <svg viewBox="0 0 560 160" role="img" aria-label="Curva ilustrativa de equalização">
+            <defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a66bff" stop-opacity=".35"/><stop offset="100%" stop-color="#a66bff" stop-opacity="0"/></linearGradient></defs>
+            <g class="gridlines"><path d="M0 25H560 M0 65H560 M0 105H560 M0 145H560"/><path d="M40 0V160 M120 0V160 M200 0V160 M280 0V160 M360 0V160 M440 0V160 M520 0V160"/></g>
+            <path class="curve-area" d="M0 120 C45 120 60 100 95 98 S150 120 185 105 S230 58 280 72 S340 110 370 80 S430 32 465 48 S520 78 560 22 L560 160 L0 160Z"/>
+            <path class="curve" d="M0 120 C45 120 60 100 95 98 S150 120 185 105 S230 58 280 72 S340 110 370 80 S430 32 465 48 S520 78 560 22"/>
+            <circle cx="95" cy="98" r="4"/><circle cx="185" cy="105" r="4"/><circle cx="280" cy="72" r="4"/><circle cx="370" cy="80" r="4"/><circle cx="465" cy="48" r="4"/>
+          </svg>
+        </div>
+        <div class="bands">
+          <div class="band"><span class="bar b1"></span><small>31</small></div><div class="band"><span class="bar b2"></span><small>62</small></div><div class="band"><span class="bar b3"></span><small>125</small></div><div class="band"><span class="bar b4"></span><small>250</small></div><div class="band"><span class="bar b5"></span><small>500</small></div><div class="band"><span class="bar b6"></span><small>1k</small></div><div class="band"><span class="bar b7"></span><small>2k</small></div><div class="band"><span class="bar b8"></span><small>4k</small></div><div class="band"><span class="bar b9"></span><small>8k</small></div><div class="band"><span class="bar b10"></span><small>16k</small></div>
+        </div>
+        <div class="eq-footer"><span>PERFIL ATUAL</span><strong>Personalizado</strong><span class="eq-badge">10 BANDAS</span></div>
+      </div>
+    </section>
+
+    <section class="trust-row" aria-label="Destaques">
+      <div><strong>10 bandas</strong><span>controle de frequência</span></div>
+      <div><strong>Perfis pessoais</strong><span>ajustes ao seu gosto</span></div>
+      <div><strong>Preto + roxo</strong><span>identidade SonicBoost</span></div>
+    </section>
+
+    <section class="section" id="recursos">
+      <div class="section-heading"><p class="eyebrow">FEITO PARA PERSONALIZAR</p><h2>O som que combina com você.</h2><p>Uma experiência simples para ajustar o áudio sem complicação.</p></div>
+      <div class="feature-grid">
+        <article class="feature"><div class="feature-icon">〰</div><h3>Equalizador gráfico</h3><p>Visualize as bandas de frequência e ajuste graves, médios, presença e agudos.</p></article>
+        <article class="feature"><div class="feature-icon">▤</div><h3>Perfis personalizados</h3><p>Guarde combinações para música, filmes, jogos, voz ou seu próprio estilo.</p></article>
+        <article class="feature"><div class="feature-icon">◉</div><h3>Controle simples</h3><p>Uma interface escura com detalhes roxos e controles diretos.</p></article>
+      </div>
+    </section>
+
+    <section class="download-section" id="downloads">
+      <div class="section-heading"><p class="eyebrow">EXPERIMENTE O SONICBOOST</p><h2>Escolha sua versão.</h2><p>Os downloads públicos serão disponibilizados aqui após a validação de cada versão.</p></div>
+      <div class="download-grid">
+        <article class="download-card featured">
+          <div class="platform-icon">▣</div><span class="status">EM PREPARAÇÃO</span>
+          <h3>Windows</h3><p>Aplicativo para PC com equalizador gráfico e perfis de áudio.</p>
+          <a class="button primary full" href="#como-baixar" aria-describedby="win-status">Download em breve</a>
+          <small id="win-status">O pacote público ainda precisa ser compilado e testado.</small>
+        </article>
+        <article class="download-card">
+          <div class="platform-icon">▱</div><span class="status muted">PLANEJADO</span>
+          <h3>Android</h3><p>Versão para celular, com interface adaptada e recursos compatíveis com Android.</p>
+          <button class="button secondary full" type="button" disabled>Em desenvolvimento</button>
+          <small>Não disponível para instalação neste momento.</small>
+        </article>
+      </div>
+      <div class="download-instructions" id="como-baixar"><strong>Por que ainda não há um botão ativo?</strong><p>Para não distribuir um arquivo incompleto, o link de download será ativado quando a versão pública estiver compilada, testada e publicada em uma página de lançamentos.</p></div>
+    </section>
+
+    <section class="about-section" id="sobre">
+      <div><p class="eyebrow">SOBRE O PROJETO</p><h2>Em evolução, com foco no que importa.</h2></div>
+      <p>O SonicBoost é um projeto em desenvolvimento. Nosso objetivo é criar uma experiência de áudio intuitiva, com controles úteis, instalação clara e atenção à estabilidade. As versões serão disponibilizadas após testes.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#"><img src="assets/sonicboost.svg" alt="" width="30" height="30"><span>Sonic<span class="accent">Boost</span></span></a>
+    <p>© <span id="year"></span> SonicBoost. Projeto independente.</p>
+    <a href="sugestoes.html">Sugestões e dicas</a>
+    <a href="PRIVACIDADE.md">Privacidade</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
